@@ -1,6 +1,6 @@
 Before stacking means no stacking.
 
-For stacking means the data for stacking.
+For stacking means the codes for stacking.
 
 Data and code are correlated.
 
