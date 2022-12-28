@@ -207,7 +207,7 @@ if __name__ == "__main__":
     random_state = 111
     feature_selector_list = ("RFE",)
     select_des_num_list = (46,)
-    model_list = ("XGB","SVM","LGBM","RF","KNNDde","KNNU","KRR","ADA", )
+    model_list = ("KRR","SVM","RF","KNNDde",) #RF was selected as the best meta-learner for further external testing
     kfold_type = "normal"
     search_max_evals = 10
     search_metric = "val_RMSE"
