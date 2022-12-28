@@ -209,7 +209,7 @@ if __name__ == "__main__":
     random_state = 153
     feature_selector_list = ("RFE",)
     select_des_num_list = (46,)
-    model_list = ("XGB","SVM","LGBM","RF","KNNDde","KNNU","KRR","ADA", )
+    model_list = ("KRR","SVM","LGBM","KNNDde",) #SVM was selected as the best mata-learner for external testing
     kfold_type = "normal"
     search_max_evals = 10
     search_metric = "val_RMSE"
