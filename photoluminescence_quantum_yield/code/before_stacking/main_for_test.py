@@ -195,7 +195,7 @@ def MainRegression(in_file_path, saved_dir, feature_selector_list, select_des_nu
         model.SaveTotalModel(saved_dir=saved_dir,saved_file_note=random_state)
         model.GenerateBallTree(p=1,saved_dir=saved_dir)
 def weights_function_KNND(x):
-    return 1/(x+0.09)
+    return 1/(x+0.08)
 if __name__ == "__main__":
 
 ###########Regression################
