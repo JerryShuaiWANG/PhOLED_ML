@@ -1,5 +1,5 @@
 # PhOLED_ML
-These are the data and code for the draft 
+These are the data and code for the paper 
 "Predictions of photophysical properties of phosphorescent platinum(II) complexes based on ensemble machine learning approach"
 about predictions of three vital photophysical properties in PhOLED emitters. 
 
