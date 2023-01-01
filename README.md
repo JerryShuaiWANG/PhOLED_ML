@@ -1,5 +1,4 @@
-# Predictions of photophysical properties of phosphorescent platinum(II) complexes based 
-on ensemble machine learning approach
+# Predictions of photophysical properties of phosphorescent platinum(II) complexes based on ensemble machine learning approach
 
 
 <p align='center'>
