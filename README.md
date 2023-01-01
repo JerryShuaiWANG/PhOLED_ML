@@ -1,7 +1,7 @@
 # Topological Structure and Semantic Information Transfer Network for Cross-Scene Hyperspectral Image Classification
 
-Paper web page: [Predictions of photophysical properties of phosphorescent platinum(II) complexes based 
-on ensemble machine learning approach].
+**Predictions of photophysical properties of phosphorescent platinum(II) complexes based 
+on ensemble machine learning approach**
 
 
 <p align='center'>
