@@ -46,8 +46,8 @@ def MainRegression(in_file_path, saved_dir, feature_selector_list, select_des_nu
     :return:
     """
     label = 'lambda'
-    dataset = pd.read_csv("train.csv")
-    dataset_test= pd.read_csv("test.csv")
+    dataset = pd.read_csv("../../data/before_stacking/train.csv")
+    dataset_test= pd.read_csv("../../data/before_stacking/test.csv")
     # dataset_test= pd.read_csv("external_test.csv")
     
  
