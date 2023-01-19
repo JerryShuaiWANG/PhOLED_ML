@@ -58,3 +58,4 @@ datasets
 - All the code and data for three properties of Pt emitters can be seen in the directories respectively.
 - The dataset, model, and code are for non-commercial research purposes only.
 - If there are any questions, please contace me freely.
+- Relative paths are updated so that it is convinient to get the correct data.
