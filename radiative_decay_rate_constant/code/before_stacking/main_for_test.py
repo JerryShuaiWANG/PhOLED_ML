@@ -46,8 +46,8 @@ def MainRegression(in_file_path, saved_dir, feature_selector_list, select_des_nu
     :return:
     """
     label = 'Exp. Kr'
-    dataset = pd.read_csv("train.csv")
-    dataset_test= pd.read_csv("test.csv")
+    dataset = pd.read_csv("../../data/before_stacking/train.csv")
+    dataset_test= pd.read_csv("../../data/before_stacking/test.csv")
     # dataset_test= pd.read_csv("external_test.csv")
     
  
@@ -98,12 +98,12 @@ def MainRegression(in_file_path, saved_dir, feature_selector_list, select_des_nu
     xgbr_model = XGBRegressor(objective='reg:squarederror', random_state=random_state)
     xgbr_params = {
         'gamma': hyperopt.hp.uniform("gamma", 0, 0.5),
-        'max_depth': hyperopt.hp.uniformint('max_depth', 2, 15),
-        'min_child_weight': hyperopt.hp.uniformint('min_child_weight', 1, 30),
+        'max_depth': hyperopt.hp.uniformint('max_depth', 3, 11),
+        'min_child_weight': hyperopt.hp.uniformint('min_child_weight', 1, 20),
         'colsample_bytree': hyperopt.hp.uniform('colsample_bytree', 0.5, 1),
         'subsample': hyperopt.hp.uniform('subsample', 0.5, 1),
         'learning_rate': hyperopt.hp.uniform('learning_rate', 0.001, 0.2),
-        'n_estimators': hyperopt.hp.uniformint('n_estimators', 5, 500),
+        'n_estimators': hyperopt.hp.uniformint('n_estimators', 10, 500),
          'max_delta_step':hyperopt.hp.uniform('max_delta_step', 0.5, 1),
          'reg_alpha': hyperopt.hp.uniform('reg_alpha', 0, 0.5),
          'reg_lambda': hyperopt.hp.uniform('reg_lambda', 0.5, 1),
@@ -209,7 +209,7 @@ if __name__ == "__main__":
     random_state = 65
     feature_selector_list = ("RFE",)
     select_des_num_list = (46,)
-    model_list = ("XGB","SVM","LGBM","RF","KNNDde","KNNU","KRR","ADA", )
+    model_list = ("ADA","XGB","SVM","LGBM","RF","KNNDde","KNNU","KRR", )
     kfold_type = "normal"
     search_max_evals = 10
     search_metric = "val_RMSE"
