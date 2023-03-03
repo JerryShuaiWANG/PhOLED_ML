@@ -45,7 +45,7 @@ def MainRegression(in_file_path, saved_dir, feature_selector_list, select_des_nu
     :param random_state:
     :return:
     """
-    label = 'Quantum Yield'
+    label = 'Exp. Quantum Yield'
     dataset = pd.read_csv("../../data/before_stacking/train.csv")
     dataset_test= pd.read_csv("../../data/before_stacking/test.csv")
     # dataset_test= pd.read_csv("external_test.csv")
