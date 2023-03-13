@@ -2,7 +2,7 @@
 
 
 <p align='center'>
-  <img src='figure/TOC.png' width="600px">
+  <img src='figure/workflow_TOC_updated_Ad_Opt_Ma.png' width="600px">
 </p>
 
 ## Abstract
