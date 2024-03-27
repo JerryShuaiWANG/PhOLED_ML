@@ -1,7 +1,9 @@
 # Predictions of photophysical properties of phosphorescent platinum(II) complexes based on ensemble machine learning approach  
 
 **Journal of Computational Chemistry**   
-This is the implementation of "![Predictions of photophysical properties of phosphorescent platinum(II) complexes based on ensemble machine learning approach](https://onlinelibrary.wiley.com/action/showCitFormats?doi=10.1002%2Fjcc.27238)".  
+Here is the implementation of "[Predictions of photophysical properties of phosphorescent platinum(II) complexes based on ensemble machine learning approach](https://onlinelibrary.wiley.com/doi/10.1002/jcc.27238)".  
+
+
 **Please cite if this paper benefits your research:**  
 S. Wang, C. Yam, S. Chen, L. Hu, L. Li, F.-F. Hung, J. Fan, C.-M. Che, G. Chen, J. Comput. Chem. 2024, 45(6), 321. https://doi.org/10.1002/jcc.27238   
 
