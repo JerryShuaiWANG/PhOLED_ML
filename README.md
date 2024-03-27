@@ -66,5 +66,5 @@ datasets
 - raw_data includes the optimized T1 structures in .xyz format and the features with experimental data for all the samples occurred in the paper. 
 - All the code and data for three properties of Pt emitters can be seen in the directories respectively.
 - The dataset, model, and code are for non-commercial research purposes only.
-- If there are any questions, please contace me freely.
+- If there are any questions, please contact me freely.
 - Relative paths are updated so that it is convenient to get the correct data.
